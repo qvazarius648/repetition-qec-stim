@@ -41,7 +41,7 @@ Key elements:
 
 Example circuit structure:
 
-![Repetition Code Circuit](images/circuit.png)
+![Repetition Code Circuit](results/circuit.png)
 
 The circuit is built using Stim’s circuit description language and compiled into a detector error model for efficient sampling.
 
@@ -55,7 +55,7 @@ Each detection event corresponds to a node, and error mechanisms generate edges 
 
 Example decoding graph:
 
-![Decoder Graph](images/matchgraph.png)
+![Decoder Graph](results/matchgraph.png)
 
 Decoding is performed using minimum-weight perfect matching (MWPM), which identifies the most likely error configuration consistent with observed detection events.
 
@@ -75,7 +75,7 @@ The threshold is identified at the crossing point of logical error rate curves f
 
 Example result:
 
-![Threshold Plot](images/graph.png)
+![Threshold Plot](results/graph.png)
 
 The expected behavior is observed: below threshold, increasing code distance suppresses logical error rate; above threshold, it increases.
 
